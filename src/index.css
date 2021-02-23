@@ -1,13 +1,232 @@
-body {
+@import url(//db.onlinewebfonts.com/c/72112afab388987941068c3f7a741a53?family=Mark+Pro+Heavy);
+@font-face {
+  font-family: "Mark Pro Heavy";
+  src: url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.eot");
+  src: url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.eot?#iefix")
+  format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.woff2")
+  format("woff2"), url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.woff")
+  format("woff"), url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.ttf")
+  format("truetype"), url("//db.onlinewebfonts.com/t/72112afab388987941068c3f7a741a53.svg#Mark Pro Heavy")
+  format("svg"); }
+* {
   margin: 0;
+  box-sizing: border-box;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.mag{
+  width: 100%;
+  height: 600px;
+}
+.img1 img{
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+}
+.img-bg{
+  width: 400px;
+  height: 500px;
+  background: #46316C;
+  z-index: 2;
+  top: 0;
+  position: absolute;
+}
+.section{
+  z-index: 3;
+  position: absolute;
+  top:200px;
+  text-align: center;
+  width: 60%;
+  height: 300px;
+
+}
+
+
+.section p{
+  text-transform: uppercase;
+  font-size: 70px;
+  color: white;
+}
+
+.charter{
+  width: 100%;
+  height: 410px;
+  align-items: center;
+  justify-content: center;
+
+}
+.charter1{
+  width: 45%;
+  height: 100px;
+  padding-left: 80px;
+}
+.charter1 h1{
+
+  font-size: 30px;
+  color: #3D3D3D;
+  font-family: "Roboto";
+}
+.charter2{
+  width: 45%;
+  height: 100%;
+  overflow: scroll;
+}
+.charter2 img{
+  width: 100%;
+}
+
+.educational_programs{
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.educational_programs1{
+  width: 45%;
+  height: 100%;
+
+}
+.educational_programs1 img{
+  width: 100%;
+  height: 100%;
+}
+.educational_programs2{
+  width: 45%;
+  height: 200px;
+  padding-left: 100px;
+}
+.educational_programs2  h1{
+  color: #3D3D3D;
+  font-family: "Roboto";
+}
+.educational_programs2 h2{
+  font-size: 20px;
+  color: #3D3D3D;
+  font-family: "Roboto";
+}
+.educational_programs2 a{
+  color:  #FFBB23;
+}
+.strategic_plan{
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.strategic_plan2{
+  width: 45%;
+  height: 100%;
+}
+.strategic_plan2 img{
+  width: 100%;
+  height: 100%;
+}
+.strategic_plan1{
+  width: 45%;
+  height: 250px;
+  padding-left: 80px;
+}
+.strategic_plan1 h1{
+  color: #3D3D3D;
+}
+.strategic_plan1 h2{
+  font-size: 20px;
+  color: #3D3D3D;
+}
+.strategic_plan1 a{
+  color:  #FFBB23;
+}
+.license{
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.license1{
+  width: 45%;
+  height: 100px;
+  padding-left: 100px;
+}
+.license1 h1{
+  color: #3D3D3D;
+  font-family: "Roboto";
+  font-size: 30px;
+}
+.license2{
+  width: 45%;
+  height: 100%;
+  overflow: scroll;
+}
+.license2 img{
+  width: 100%;
+}
+.position{
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.position1{
+  width: 45%;
+  height: 100%;
+}
+.position1 img{
+  width: 100%;
+  height: 100%;
+}
+.position2{
+  width: 45%;
+  height: 400px;
+  padding: 20px 20px 0 80px;
+}
+.position2 h1{
+  color: #3D3D3D;
+  font-family: "Roboto";
+}
+.position2 a{
+  color: #3D3D3D;
+}
+.accreditation{
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.accreditation2{
+  width: 45%;
+  height: 100%;
+}
+.accreditation2 img{
+  width: 100%;
+  height: 100%;
+}
+.accreditation1{
+  width: 45%;
+  height: 200px;
+  padding-left: 100px;
+}
+.accreditation1 h1{
+  color: #3D3D3D;
+}
+.accreditation1 h2{
+  color: #3D3D3D;
+  font-size: 20px;
+}
+.accreditation1 a{
+  color:  #FFBB23;
+}
+.accreditation3 a{
+  color: #007aff;
 }
