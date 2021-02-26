@@ -49,6 +49,7 @@ import lk12 from '../src/images/image-license/011-e1541832436155.jpg'
 import lk13 from '../src/images/image-license/012-e1541832427724.jpg'
 
 
+
 const Main = () => {
     const [open, setOpen] = useState('hidden')
     return (
@@ -62,6 +63,7 @@ const Main = () => {
                     <p className="section1"> магистратура</p>
                 </div>
             </div>
+
             <div className="charter" style={{display: "flex"}}>
                 <div className="charter1">
                   <h1>Устав КРАО 2017</h1>
@@ -99,7 +101,7 @@ const Main = () => {
                 </div>
 
             </div>
-            <div className="educational_programs " style={{display: "flex"}}>
+            <div className="educational_programs">
                 <div className="educational_programs1">
                     <img src={educational_programs} alt=""/>
                 </div>

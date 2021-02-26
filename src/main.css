@@ -1,0 +1,249 @@
+.mag{
+    width: 100%;
+    height: 600px;
+}
+.img1 img{
+    width: 1500px;
+    height: 500px;
+    z-index: 0;
+}
+.img-bg{
+    width: 400px;
+    height: 500px;
+    background: #46316C;
+    z-index: 2;
+    top: 0;
+    position: absolute;
+}
+.section{
+    z-index: 3;
+    position: absolute;
+    top:200px;
+    text-align: center;
+    width: 60%;
+    height: 300px;
+
+}
+
+
+.section p{
+    text-transform: uppercase;
+    font-size: 70px;
+    color: white;
+}
+
+.charter{
+    width: 1500px;
+    height: 410px;
+    align-items: center;
+    justify-content: center;
+
+}
+.charter1{
+    width: 45%;
+    height: 100px;
+    padding-left: 80px;
+    border: solid red 2px;
+}
+.charter1 h1{
+
+    font-size: 30px;
+    color: #3D3D3D;
+    font-family: "Roboto";
+}
+.charter2{
+    width: 45%;
+    height: 100%;
+    overflow: scroll;
+    border: solid red 2px;
+}
+.charter2 img{
+    width: 100%;
+}
+
+.educational_programs{
+    width: 1500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.educational_programs1{
+    width: 45%;
+    height: 100%;
+    border: solid red 2px;
+
+}
+.educational_programs1 img{
+    width: 100%;
+    height: 100%;
+}
+.educational_programs2{
+    width: 45%;
+    height: 200px;
+    padding-left: 100px;
+    border: solid red 2px;
+}
+.educational_programs2  h1{
+    color: #3D3D3D;
+    font-family: "Roboto";
+}
+.educational_programs2 h2{
+    font-size: 20px;
+    color: #3D3D3D;
+    font-family: "Roboto";
+}
+.educational_programs2 a{
+    color:  #FFBB23;
+}
+
+@media (max-width: 1000px) {
+    .educational_programs1 img{
+        border-radius: 360%;
+        width: 100%;
+        height: 100%;
+
+
+    }
+}
+@media (max-width: 1000px) {
+    .educational_programs1{
+        display: block;
+        border-radius: 360%;
+        width: 500px;
+        height: 450px;
+    }
+}
+@media (max-width: 1000px) {
+    .educational_programs{
+        display: block;
+
+
+    }
+}
+
+@media (min-width: 1000px) {
+    .educational_programs{
+        display: flex;
+    }
+}
+.strategic_plan{
+    width: 1500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.strategic_plan2{
+    width: 45%;
+    height: 100%;
+    border: solid red 2px;
+}
+.strategic_plan2 img{
+    width: 100%;
+    height: 100%;
+}
+.strategic_plan1{
+    width: 45%;
+    height: 250px;
+    padding-left: 80px;
+    border: solid red 2px;
+}
+.strategic_plan1 h1{
+    color: #3D3D3D;
+}
+.strategic_plan1 h2{
+    font-size: 20px;
+    color: #3D3D3D;
+}
+.strategic_plan1 a{
+    color:  #FFBB23;
+}
+.license{
+    width: 1500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.license1{
+    width: 45%;
+    height: 100px;
+    padding-left: 100px;
+    border: solid red 2px;
+}
+.license1 h1{
+    color: #3D3D3D;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+.license2{
+    width: 45%;
+    height: 100%;
+    overflow: scroll;
+    border: solid red 2px;
+}
+.license2 img{
+    width: 100%;
+}
+.position{
+    width: 1500px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+.position1{
+    width: 45%;
+    height: 100%;
+    border: solid red 2px;
+}
+.position1 img{
+    width: 100%;
+    height: 100%;
+}
+.position2{
+    width: 45%;
+    height: 400px;
+    padding: 20px 20px 0 80px;
+    border: solid red 2px;
+}
+.position2 h1{
+    color: #3D3D3D;
+    font-family: "Roboto";
+}
+.position2 a{
+    color: #3D3D3D;
+}
+.accreditation{
+    width: 1500px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+.accreditation2{
+    width: 45%;
+    height: 100%;
+    border: solid red 2px;
+}
+.accreditation2 img{
+    width: 100%;
+    height: 100%;
+}
+.accreditation1{
+    width: 45%;
+    height: 200px;
+    padding-left: 100px;
+    border: solid red 2px;
+}
+.accreditation1 h1{
+    color: #3D3D3D;
+}
+.accreditation1 h2{
+    color: #3D3D3D;
+    font-size: 20px;
+}
+.accreditation1 a{
+    color:  #FFBB23;
+}
+.accreditation3 a{
+    color: #007aff;
+}
+

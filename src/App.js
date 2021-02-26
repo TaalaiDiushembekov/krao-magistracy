@@ -1,12 +1,15 @@
 import React from 'react'
-
-
-import Main from "./main";
+import News from "./news";
+import Accord from "./Accordion";
+import License from "./license";
 
 function App() {
   return (
     <div>
-      <Main />
+      <License/>
+      <Accord/>
+      <News/>
+
     </div>
   );
 }
