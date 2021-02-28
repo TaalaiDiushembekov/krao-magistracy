@@ -119,20 +119,39 @@ code {
 .license225 p{
   padding-left: 10px;
 }
+.timetable{
+  margin: 0 10px;
+  font-size:25px;
+}
+.timetable2{
+  margin: 30px 0 5px 0;
+}
+.timetable_icons{
+  margin: 0 5px;
+}
+.timetable_icons:hover{
+  color: indigo;
+}
 @media (max-width: 1000px) {
   .charter22{
     font-size: 30px;
-
   }
 }
-
-
 @media (min-width: 1600px) {
   .charter22{
     font-size: 40px;
   }
 }
-
+@media (max-width: 1000px) {
+  .timetable{
+    font-size: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .timetable{
+    font-size: 40px;
+  }
+}
 @media (max-width: 1000px) {
   .news_title{
     font-size: 30px;
