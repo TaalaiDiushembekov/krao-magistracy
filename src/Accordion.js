@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
           },
     heading: {
-        fontSize: theme.typography.pxToRem(15),
+        fontSize: theme.typography.pxToRem(24),
         fontWeight: theme.typography.fontWeightRegular,
     },
 }));

@@ -6,9 +6,9 @@ import License from "./license";
 function App() {
   return (
     <div>
-      <License/>
-      <Accord/>
+
       <News/>
+
 
     </div>
   );
