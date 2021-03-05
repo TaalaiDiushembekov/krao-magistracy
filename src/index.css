@@ -121,16 +121,44 @@ code {
 }
 .timetable{
   margin: 0 10px;
+  padding: 10px 10px;
   font-size:25px;
+  background: #F1F3F4;
 }
-.timetable2{
+
+.school_icon{
+  margin: 10px 5px 0 0;
+  padding: 10px;
+  border: #BA55D3 solid 2px;
+  border-radius: 90px;
+  box-sizing: content-box;
+}
+.timetable20{
   margin: 30px 0 5px 0;
+}
+.timetable21{
+  margin: 5px;
+}
+.timetable30{
+  margin: 5px 0;
+}
+.timetable31{
+  margin: 5px;
+  width: 100%;
+}
+.timetable31 img{
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 5px;
 }
 .timetable_icons{
   margin: 0 5px;
+  color: grey;
 }
+
 .timetable_icons:hover{
-  color: indigo;
+  color: #BA55D3;
 }
 @media (max-width: 1000px) {
   .charter22{
@@ -140,6 +168,52 @@ code {
 @media (min-width: 1600px) {
   .charter22{
     font-size: 40px;
+  }
+}
+@media (max-width: 390px) {
+  .timetable{
+    width: 80%;
+  }
+}
+@media (max-width: 420px) {
+  .timetable{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .timetable31{
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .timetable31{
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .timetable31 p{
+    width: 100%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .timetable31 img{
+    height: 150px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .timetable31 img{
+    height: 200px;
+    width: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .timetable31 img{
+    height: 150px;
+    width: 200px;
   }
 }
 @media (max-width: 1000px) {
